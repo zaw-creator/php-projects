@@ -13,31 +13,69 @@
 
 // grab the form values from $_HTTP_GET_VARS hash
 extract($_GET);
-
+$result;
+$error = '';
 // first compute the output, but only if data has been input
 if(isset($calc)) { // $calc exists as a variable
 //    $prod = $x * $y;
 // $x = $_GET['x'];
 //     $y = $_GET['y'];
-    $operator = $_GET['operator'];
-switch($operator){
-    case "+":
-        $result = $x + $y;
-        break;
-    case "-":
-        $result = $x - $y;
-        break;
-    case "*":
-        $result = $x * $y;
-        break;
-    case "/":
-        $result = $x / $y;
-        break;
-    default:
-        // Handle unexpected operator
-        break;
-}
+    // $operator = $_GET['operator'];
+    function cal(){
 
+        global $x,$y,$operators,$result;
+        
+        // switch($operators){
+        //         case "+":
+        //             $result = $x + $y;
+        //             $operators='+';
+        //             break;
+        //         case "-":
+        //             $result = $x - $y;
+        //             $operators='-';
+        //             break;
+        //         case "*":
+        //             $result = $x * $y;
+        //             $operators='*';
+        //             break;
+        //         case "/":
+        //             $result = $x / $y;
+        //             $operators='/';
+        //             break;
+        //         default:
+        //             // Handle unexpected operator
+        //             break;
+        //     }
+    
+    
+    
+    
+    }
+
+    if (!is_numeric($x) || !is_numeric($y)) {
+        $error = 'Please enter valid numeric values for both x and y.';
+    } else {
+        eval("\$result = $x $operators $y;");
+        cal();
+// switch($operators){
+//     case "+":
+//         $result = $x + $y;
+//         break;
+//     case "-":
+//         $result = $x - $y;
+//         break;
+//     case "*":
+//         $result = $x * $y;
+//         break;
+//     case "/":
+//         $result = $x / $y;
+//         break;
+//     default:
+//         // Handle unexpected operator
+//         break;
+// }
+
+    }
 }
 else { // set defaults
    $x=0;
@@ -61,11 +99,11 @@ else { // set defaults
 
           x = <input type="text" name="x" size="5" value="<?php print $x; ?>"/>
         
-          <select  id="operator" name="operator">
-            <option value="+">+</option>
-            <option value="-">-</option>
-            <option value="*">*</option>
-            <option value="/">/</option>
+          <select  id="operators" name="operators">
+            <option value="+" <?php if ($operators === "+") echo "selected"; ?>>+</option>
+            <option value="-" <?php if ($operators === "-") echo "selected"; ?>>-</option>
+            <option value="*" <?php if ($operators === "*") echo "selected"; ?>>*</option>
+            <option value="/" <?php if ($operators === "/") echo "selected"; ?>>/</option>
 
           </select>
 
@@ -75,7 +113,9 @@ else { // set defaults
           <input type="submit" name="calc" value="Calculate"/>
           <!-- <input type="reset" name="clear" value="Clear"/> -->
        </form>
-
+       <?php if (!empty($error)) : ?>
+        <p style="color: red;"><?php echo $error; ?></p>
+    <?php endif; ?>
       <!-- print the result -->
       <?php 
       if(isset($calc)) {
