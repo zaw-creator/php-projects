@@ -22,6 +22,12 @@ $target="han hto zaw";
 
 $sum = $greeeting . " " . $target;
 
+$var1= "hhz";
+$var2= "tlw";
+
+$plus = $var1.$var2;
+
+echo $plus;
 
 
 echo $sum;
