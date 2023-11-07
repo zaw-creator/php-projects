@@ -49,7 +49,7 @@ if (array_key_exists($selectedMonth, $monthsAndSeasons)) {
 
 ?>
 
-<form action=""  method ="post"> 
+
 
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
     <label for="month">Select a month:</label>
