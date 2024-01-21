@@ -11,9 +11,11 @@
     // $access_key = 'c349d13b967b9bab2b8770977579a5c8';
     // $basecurrency='GBP';
 
-    $apiURL="http://data.fixer.io/api/latest?access_key=c349d13b967b9bab2b8770977579a5c8&%20symbols%20=%20USD";
+    // $apiURL="http://data.fixer.io/api/latest?access_key=c349d13b967b9bab2b8770977579a5c8&%20symbols%20=%20USD";
     // $access_key ="80f8e303ede7a6ba70377c0e3b86c163"; 
     // $apiURL="http://apilayer.net/api/live?access_key=80f8e303ede7a6ba70377c0e3b86c163&source=GBP&currencies=EUR,USD,CAD,PLN&mode=xml";
+        $apiURL="http://apilayer.net/api/live?access_key=80f8e303ede7a6ba70377c0e3b86c163&source=GBP";
+
     $currencydata= file_get_contents($apiURL);
 
     if($currencydata === false){
