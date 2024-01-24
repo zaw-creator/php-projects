@@ -41,6 +41,7 @@
             die("Error decoding JSON data");
         }
 
+
         $modifiedCurrencyData = array();
         foreach ($currencydata['quotes'] as $currency => $rate) {
             $newCurrencyCode = substr($currency, 3);
@@ -55,6 +56,8 @@
 
         if($currencydata['quotes']!== null){
             $xml = new SimpleXMLElement('<currency_data></currency_data>');
+            $xml->addChild('timestamp', $currencydata['timestamp']);
+    $xml->addChild('source', $currencydata['source']);
             arrayToXml($currencydata['quotes'], $xml);
 
             $xml->asXML('currency_data.xml');
