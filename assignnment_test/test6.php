@@ -1,28 +1,31 @@
 <?php
+
+@date_default_timezone_set("GMT");
 // Load currency_data.xml
 $currency_data = simplexml_load_file('currency_data.xml');
+
 
 // Load currency_countries.xml
 $currency_countries = simplexml_load_file('currency_countries.xml');
 
-$rates_xml = new SimpleXMLElement('<rates></rates>');
-$rates_xml->addAttribute('ts', $currency_data->timestamp);
-$rates_xml->addAttribute('base', $currency_data->source);
 
-foreach ($currency_data->children() as $currency_code => $rate) {
-    if ($currency_code != 'timestamp' && $currency_code != 'source') {
-        // Find the corresponding entry in currency_countries
-        $currency_country_entry = $currency_countries->xpath("//Ccy[Ccy = '$currency_code']/parent::*")[0];
-        $currency_element = $rates_xml->addChild('currency');
-        $currency_element->addAttribute('rate', (string)$rate);
-        $currency_element->addAttribute('live', '0');
-        $currency_element->addChild('code', (string)$currency_country_entry->Ccy);
-        $currency_element->addChild('curr', (string)$currency_country_entry->CcyNm);
-        $currency_element->addChild('loc', (string)$currency_country_entry->CtryNm);
-    }
-}
+
+// Remove unwanted characters from timestamp and base attributes
+$timestamp = str_replace(["\n", "\t"], '', $currency_data->timestamp);
+$base = str_replace(["\n", "\t"], '', $currency_data->source);
+
+$rates_xml = new SimpleXMLElement('<rates></rates>');
+$rates_xml->addAttribute('ts', $timestamp);
+$rates_xml->addAttribute('base', $base);
+
+
+
+
+
+
+
+
 $rates_xml->asXML('rates.xml');
 
 echo 'Merged data has been stored in rates.xml';
-
 ?>

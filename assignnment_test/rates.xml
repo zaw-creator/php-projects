@@ -1,2 +1,1179 @@
 <?xml version="1.0"?>
-<rates ts="&#10;&#9;&#9;1706122084&#10;&#9;" base="&#10;&#9;&#9;GBP&#10;&#9;" />
+<rates ts=" 1706283963 " base=" GBP ">
+	<currency rate=" 4.673857 " live="0">
+		<code>
+			AED
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 92.255931 " live="0">
+		<code>
+			AFN
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 121.842539 " live="0">
+		<code>
+			ALL
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 516.235671 " live="0">
+		<code>
+			AMD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 2.293744 " live="0">
+		<code>
+			ANG
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1054.623778 " live="0">
+		<code>
+			AOA
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1047.98805 " live="0">
+		<code>
+			ARS
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.929357 " live="0">
+		<code>
+			AUD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 2.290513 " live="0">
+		<code>
+			AWG
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 2.141739 " live="0">
+		<code>
+			AZN
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 2.28905 " live="0">
+		<code>
+			BAM
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 2.569827 " live="0">
+		<code>
+			BBD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 139.68615 " live="0">
+		<code>
+			BDT
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 2.289782 " live="0">
+		<code>
+			BGN
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 0.479712 " live="0">
+		<code>
+			BHD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 3645.097646 " live="0">
+		<code>
+			BIF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.272507 " live="0">
+		<code>
+			BMD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.705259 " live="0">
+		<code>
+			BND
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 8.793913 " live="0">
+		<code>
+			BOB
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 6.253489 " live="0">
+		<code>
+			BRL
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.2728 " live="0">
+		<code>
+			BSD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 3.0734209E-5 " live="0">
+		<code>
+			BTC
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 105.688457 " live="0">
+		<code>
+			BTN
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 17.303752 " live="0">
+		<code>
+			BWP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 4.165187 " live="0">
+		<code>
+			BYN
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 24941.146398 " live="0">
+		<code>
+			BYR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 2.565497 " live="0">
+		<code>
+			BZD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.709906 " live="0">
+		<code>
+			CAD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 3471.400436 " live="0">
+		<code>
+			CDF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.098842 " live="0">
+		<code>
+			CHF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 0.042464 " live="0">
+		<code>
+			CLF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1171.979633 " live="0">
+		<code>
+			CLP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 9.02595 " live="0">
+		<code>
+			CNY
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 5002.175962 " live="0">
+		<code>
+			COP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 650.368259 " live="0">
+		<code>
+			CRC
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.272507 " live="0">
+		<code>
+			CUC
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 33.721448 " live="0">
+		<code>
+			CUP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 129.604994 " live="0">
+		<code>
+			CVE
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 29.018226 " live="0">
+		<code>
+			CZK
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 226.604827 " live="0">
+		<code>
+			DJF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 8.732333 " live="0">
+		<code>
+			DKK
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 74.855296 " live="0">
+		<code>
+			DOP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 171.325311 " live="0">
+		<code>
+			DZD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 39.314628 " live="0">
+		<code>
+			EGP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 19.087612 " live="0">
+		<code>
+			ERN
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 71.77537 " live="0">
+		<code>
+			ETB
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.171502 " live="0">
+		<code>
+			EUR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 2.848121 " live="0">
+		<code>
+			FJD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.002298 " live="0">
+		<code>
+			FKP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 3.403971 " live="0">
+		<code>
+			GEL
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.002298 " live="0">
+		<code>
+			GGP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 15.473645 " live="0">
+		<code>
+			GHS
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.002298 " live="0">
+		<code>
+			GIP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 85.704079 " live="0">
+		<code>
+			GMD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 10943.564566 " live="0">
+		<code>
+			GNF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 9.952546 " live="0">
+		<code>
+			GTQ
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 266.263381 " live="0">
+		<code>
+			GYD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 9.942996 " live="0">
+		<code>
+			HKD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 31.443856 " live="0">
+		<code>
+			HNL
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 8.755259 " live="0">
+		<code>
+			HRK
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 167.41271 " live="0">
+		<code>
+			HTG
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 453.203742 " live="0">
+		<code>
+			HUF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 20059.998622 " live="0">
+		<code>
+			IDR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 4.690303 " live="0">
+		<code>
+			ILS
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.002298 " live="0">
+		<code>
+			IMP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 105.76694 " live="0">
+		<code>
+			INR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1667.621039 " live="0">
+		<code>
+			IQD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 53493.0294 " live="0">
+		<code>
+			IRR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 173.977048 " live="0">
+		<code>
+			ISK
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.002298 " live="0">
+		<code>
+			JEP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 198.240805 " live="0">
+		<code>
+			JMD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 0.902715 " live="0">
+		<code>
+			JOD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 188.404929 " live="0">
+		<code>
+			JPY
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 206.780311 " live="0">
+		<code>
+			KES
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 113.660565 " live="0">
+		<code>
+			KGS
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 5199.465797 " live="0">
+		<code>
+			KHR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 577.908781 " live="0">
+		<code>
+			KMF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1145.31856 " live="0">
+		<code>
+			KPW
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1697.639712 " live="0">
+		<code>
+			KRW
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 0.3915 " live="0">
+		<code>
+			KWD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.060579 " live="0">
+		<code>
+			KYD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 573.421301 " live="0">
+		<code>
+			KZT
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 26353.629716 " live="0">
+		<code>
+			LAK
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 19125.787745 " live="0">
+		<code>
+			LBP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 404.370044 " live="0">
+		<code>
+			LKR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 241.203845 " live="0">
+		<code>
+			LRD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 24.037895 " live="0">
+		<code>
+			LSL
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 3.757384 " live="0">
+		<code>
+			LTL
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 0.769727 " live="0">
+		<code>
+			LVL
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 6.12709 " live="0">
+		<code>
+			LYD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 12.702805 " live="0">
+		<code>
+			MAD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 22.576972 " live="0">
+		<code>
+			MDL
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 5789.909327 " live="0">
+		<code>
+			MGA
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 72.107333 " live="0">
+		<code>
+			MKD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 2672.630837 " live="0">
+		<code>
+			MMK
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 4353.060074 " live="0">
+		<code>
+			MNT
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 10.243843 " live="0">
+		<code>
+			MOP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 50.327342 " live="0">
+		<code>
+			MRU
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 58.159848 " live="0">
+		<code>
+			MUR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 19.600705 " live="0">
+		<code>
+			MVR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 2140.999987 " live="0">
+		<code>
+			MWK
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 21.847806 " live="0">
+		<code>
+			MXN
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 6.020872 " live="0">
+		<code>
+			MYR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 80.805487 " live="0">
+		<code>
+			MZN
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 24.03754 " live="0">
+		<code>
+			NAD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1144.238286 " live="0">
+		<code>
+			NGN
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 46.764907 " live="0">
+		<code>
+			NIO
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 13.234052 " live="0">
+		<code>
+			NOK
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 169.10511 " live="0">
+		<code>
+			NPR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 2.084215 " live="0">
+		<code>
+			NZD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 0.489848 " live="0">
+		<code>
+			OMR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.272683 " live="0">
+		<code>
+			PAB
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 4.784597 " live="0">
+		<code>
+			PEN
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 4.706371 " live="0">
+		<code>
+			PGK
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 71.715342 " live="0">
+		<code>
+			PHP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 356.397551 " live="0">
+		<code>
+			PKR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 5.116196 " live="0">
+		<code>
+			PLN
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 9295.98715 " live="0">
+		<code>
+			PYG
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 4.632561 " live="0">
+		<code>
+			QAR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 5.831134 " live="0">
+		<code>
+			RON
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 137.328333 " live="0">
+		<code>
+			RSD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 113.253027 " live="0">
+		<code>
+			RUB
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1623.083277 " live="0">
+		<code>
+			RWF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 4.772028 " live="0">
+		<code>
+			SAR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 10.735124 " live="0">
+		<code>
+			SBD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 16.848914 " live="0">
+		<code>
+			SCR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 764.776867 " live="0">
+		<code>
+			SDG
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 13.2703 " live="0">
+		<code>
+			SEK
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.705077 " live="0">
+		<code>
+			SGD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.615258 " live="0">
+		<code>
+			SHP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 28.710902 " live="0">
+		<code>
+			SLE
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 25132.022563 " live="0">
+		<code>
+			SLL
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 726.602078 " live="0">
+		<code>
+			SOS
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 46.60054 " live="0">
+		<code>
+			SRD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 26338.335432 " live="0">
+		<code>
+			STD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 16545.064953 " live="0">
+		<code>
+			SYP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 24.037914 " live="0">
+		<code>
+			SZL
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 45.296811 " live="0">
+		<code>
+			THB
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 13.872494 " live="0">
+		<code>
+			TJS
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 4.466501 " live="0">
+		<code>
+			TMT
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 3.958136 " live="0">
+		<code>
+			TND
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 3.012089 " live="0">
+		<code>
+			TOP
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 38.585041 " live="0">
+		<code>
+			TRY
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 8.638258 " live="0">
+		<code>
+			TTD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 39.758859 " live="0">
+		<code>
+			TWD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 3200.356364 " live="0">
+		<code>
+			TZS
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 48.153584 " live="0">
+		<code>
+			UAH
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 4852.440531 " live="0">
+		<code>
+			UGX
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 1.272507 " live="0">
+		<code>
+			USD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 49.285159 " live="0">
+		<code>
+			UYU
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 15810.905035 " live="0">
+		<code>
+			UZS
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 4590964.494479 " live="0">
+		<code>
+			VEF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 45.900719 " live="0">
+		<code>
+			VES
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 31329.133894 " live="0">
+		<code>
+			VND
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 152.785783 " live="0">
+		<code>
+			VUV
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 3.497822 " live="0">
+		<code>
+			WST
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 767.726081 " live="0">
+		<code>
+			XAF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 0.055734 " live="0">
+		<code>
+			XAG
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 0.00063 " live="0">
+		<code>
+			XAU
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 3.439016 " live="0">
+		<code>
+			XCD
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 0.956092 " live="0">
+		<code>
+			XDR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 765.407962 " live="0">
+		<code>
+			XOF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 140.484107 " live="0">
+		<code>
+			XPF
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 318.57213 " live="0">
+		<code>
+			YER
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 23.855125 " live="0">
+		<code>
+			ZAR
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 11454.097168 " live="0">
+		<code>
+			ZMK
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 34.241721 " live="0">
+		<code>
+			ZMW
+		</code>
+		<curr />
+		<loc />
+	</currency>
+	<currency rate=" 409.746886 " live="0">
+		<code>
+			ZWL
+		</code>
+		<curr />
+		<loc />
+	</currency>
+</rates>
