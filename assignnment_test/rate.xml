@@ -1,5 +1,16 @@
 <?xml version="1.0"?>
 <rates ts=" 1706283963 " base=" GBP ">
+	<currency rate="1" live="1">
+		<code>
+			GBP
+		</code>
+		<curr>
+			Pound Sterling
+		</curr>
+		<loc>
+			GUERNSEY, ISLE OF MAN, JERSEY, UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)
+		</loc>
+	</currency>
 	<currency rate=" 4.673857 " live="0">
 		<code>
 			AED
