@@ -20,6 +20,7 @@
         echo $greeting." ".$target.$punct."<br />";
     }
     better_hello("hello", $name , "!");
+    // if you dont want to add the value for the argumetns put null.
     better_hello("hello", $name , null);
 
     

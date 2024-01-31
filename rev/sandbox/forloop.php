@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php 
+    // for loop and while loop does the same things
     for($count=0;$count<=10;$count++){
         echo $count.", ";
     }

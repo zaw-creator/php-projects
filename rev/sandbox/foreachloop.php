@@ -9,6 +9,7 @@
 <body>
     <?php 
     $ages = array(1,2,3,4,5);
+    // if you want to output the items in array as individual better to yse for each;
 
     foreach( $ages as $age){
         echo "Age : {$age}"."<br />";
