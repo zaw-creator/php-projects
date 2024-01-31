@@ -13,17 +13,17 @@ function convertCurrency($from, $to, $amount) {
 
     // Find the rates for the specified currencies
     foreach ($rate_data->currency as $currency) {
-        // Trim the currency code for comparison
-        $current_currency_code = strtoupper(trim((string)$currency->code));
-        $from_upper = strtoupper($from);
-        $to_upper = strtoupper($to);
-    
-        if ($current_currency_code === $from_upper) {
-            $from_rate = (float)$currency['rate'];
-        } elseif ($current_currency_code === $to_upper) {
-            $to_rate = (float)$currency['rate'];
-        }
+    // Trim the currency code for comparison
+    $current_currency_code = strtoupper(trim((string)$currency->code));
+    $from_upper = strtoupper($from);
+    $to_upper = strtoupper($to);
+
+    if ($current_currency_code === $from_upper) {
+        $from_rate = (float)$currency['rate'];
+    } elseif ($current_currency_code === $to_upper) {
+        $to_rate = (float)$currency['rate'];
     }
+}
 
     // Debugging output
     echo "Checking: $from\n";
