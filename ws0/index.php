@@ -42,7 +42,7 @@ if (count($_GET) > 4) {
 $xml=simplexml_load_file('rates.xml');
 
 # xpath the codes of the rates which are live
-$rates = $xml->xpath("//rate[@live='1']/@code");
+$rates = $xml->xpath("//rates [@live='1']/@code");
 
 # create a php array of these codes
 foreach ($rates as $key=>$val) {$codes[] =(string) $val;}
@@ -54,10 +54,11 @@ if (!in_array($_GET['to'], $codes) || !in_array($_GET['from'], $codes)) {
 }
 
 # $amnt is not a two digit decimal value (can be integer)
-if (!preg_match('/^\d+(\.\d{1,2})?$/', $_GET['amnt'])) {
+if (!preg_match('/^\d+\.\d{1,2}?$/', $_GET['amnt'])) {
 	echo generate_error(1300, $_GET['format']);
 	exit;
 }
+
 
 # set a constant array holding format vals
 define('FRMTS', array('xml', 'json'));
